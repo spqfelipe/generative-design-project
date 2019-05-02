@@ -1,14 +1,59 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>GenerativeDesign</title>
+  <title>Generative Design</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
+
 <body>
+
+  <div id="desktop-limiter" class="hide-on-small-only">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center black-text">Generative Design</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row center">
+        <!-- CANVAS -->
+        <canvas id="finalCanvas" class=""></canvas>
+      </div>
+      <div class="row center">
+        <button id="download-btn" class="btn transparent black-text z-depth-0">Download</button>
+        <button id="refresh-btn" class="btn transparent black-text z-depth-0">Refresh</button>
+      </div>
+    </div>
+
+  </div>
+
   <app-root></app-root>
+
+  <!-- P5 Import -->
+  <script src="/assets/js/libs/p5.js"></script>
+  <script src="/assets/js/libs/p5.svg.js"></script>
+
+  <!-- Caman Import -->
+  <script src="/assets/js/libs/caman.full.js"></script>
+
+  <!-- Funcs Import -->
+  <script src="/assets/js/funcs_modules/draw_helper_funcs.js"></script>
+  <script src="/assets/js/funcs_modules/logic_helper_funcs.js"></script>
+  <script src="/assets/js/funcs_modules/random_funcs.js"></script>
+  <script src="/assets/js/funcs_modules/layers.js"></script>
+  <script src="/assets/js/masters/constructorMaster.js"></script>
+  <script src="/assets/js/masters/colorMaster.js"></script>
+
+  <!-- Sketch Import -->
+  <script src="/assets/js/sketch.js"></script>
+  <script src="/assets/js/main.js"></script>
+
 </body>
+
 </html>
