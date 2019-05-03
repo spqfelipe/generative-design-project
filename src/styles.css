@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.main-canvas{
+    margin-top:4rem;
+}
+
+.brand-logo-adjust{
+    font-family: 'Permanent Marker';
+    font-size: 5rem !important;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}

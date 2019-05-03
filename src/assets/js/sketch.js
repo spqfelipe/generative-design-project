@@ -7,6 +7,8 @@ This module is the main structure to all other modules. It uses the
 standard P5 (or Processing) structure to draw elements.
 */
 
+
+
 // Canvas size in Pixels
 const CANVAS_SIZE = 550
 
@@ -43,6 +45,9 @@ function draw(){
     // Creates "defaultCanvas" for P5. All drwing are made in this canvas
     // and later layered into "finalCanvas" using Caman.js
     const create = createCanvas(CANVAS_SIZE, CANVAS_SIZE)
+
+    // Hiding canvas using hide class from MaterializeCSS
+    $("#defaultCanvas").addClass('hide')
 
     // Gets "finalCanvas" from HTML
     const finalCanvas = document.getElementById('finalCanvas')
