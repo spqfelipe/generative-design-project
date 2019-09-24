@@ -1,27 +1,49 @@
-# GenerativeDesign
+# Generative Design Project 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+This is a quick experiment using some JavaScript libraries. The idea here was to build a fairly simple procedural generator of pattern art. 
 
-## Development server
+## Output Examples 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Below you can see some of the outputs of this generator:
 
-## Code scaffolding
+- Example 01 </br>
+<img src="out_example/example01.png" width="350"/>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Example 02 </br>
+<img src="out_example/example02.png" width="350"/>
 
-## Build
+- Example 03 </br>
+<img src="out_example/example03.png" width="350"/>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Libreries Used 
 
-## Running unit tests
+Below you will find a list of used libreries and it's main purpuse in this project:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **P5.js:** it emulates the Processing language to a JavaScript Syntax. This is the core librery of the whole project
 
-## Running end-to-end tests
+- **Caman.js:** it's a librery for image manipulation. In this specific projects it's being used to layer different patterns
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- **Materialize:** a simple frontend framework similar to Bootstrap. I used it just to setup the title and description of the project
 
-## Further help
+## JavaScript Files Location
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+If you've never worked with Angular before all the JavaScript files are located at [../src/assets/js/](../src/assets/js/)
+
+
+## How to run it
+
+The whole project was built using Angular to make future deploy easier. To run it you will need [Angular CLI](https://angular.io/guide/setup-local).
+
+Navigate to the root of the project with your terminal and run:
+
+`ng serve --open`
+
+This will compile Angular and automactly open the browser at **localhost:4200**
+
+
+
+
+
+
+
+
