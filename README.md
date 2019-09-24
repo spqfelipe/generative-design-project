@@ -4,7 +4,7 @@ This is a quick experiment using some JavaScript libraries. The idea here was to
 
 ## Output Examples 
 
-Below you can see some of the outputs of this generator:
+Below you can see some outputs of this generator:
 
 - Example 01 </br>
 <img src="out_example/example01.png" width="350"/>
@@ -17,17 +17,17 @@ Below you can see some of the outputs of this generator:
 
 ## Libreries Used 
 
-Below you will find a list of used libreries and it's main purpuse in this project:
+Below you will find a list of used libraries and it's main purpose in this project:
 
-- **P5.js:** it emulates the Processing language to a JavaScript Syntax. This is the core librery of the whole project
+- **P5.js:** it emulates the Processing language to a JavaScript Syntax. This is the core library of the whole project
 
-- **Caman.js:** it's a librery for image manipulation. In this specific projects it's being used to layer different patterns
+- **Caman.js:** it's a library for image manipulation. In this specific projects it's being used to layer different patterns
 
-- **Materialize:** a simple frontend framework similar to Bootstrap. I used it just to setup the title and description of the project
+- **Materialize:** a simple frontend framework similar to Bootstrap. I used it just to set up the title and description of the project
 
 ## JavaScript Files Location
 
-If you've never worked with Angular before all the JavaScript files are located at [../src/assets/js/](../src/assets/js/)
+If you've never worked with Angular before, all the JavaScript files are located at [../src/assets/js/](../src/assets/js/)
 
 
 ## How to run it
@@ -38,7 +38,7 @@ Navigate to the root of the project with your terminal and run:
 
 `ng serve --open`
 
-This will compile Angular and automactly open the browser at **localhost:4200**
+This will compile Angular and automatically open the browser at **localhost:4200**
 
 
 
